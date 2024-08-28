@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F37DB99B-8E86-4978-8454-93CCC1AC51F8}"
+	ProjectSection(SolutionItems) = preProject
+		prometheus.yml = prometheus.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{51C4B6BC-FCC1-4053-89B8-BDBEE10006DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{71A2B704-C6F5-4167-A917-B08D228F4A2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublicSharing.Domain", "PublicSharing.Domain\PublicSharing.Domain.csproj", "{141DA055-4839-4991-89BA-63EB89F910F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublicSharing.Infrastructure", "PublicSharing.Infrastructure\PublicSharing.Infrastructure.csproj", "{E2EE8B54-A21E-48A0-839D-76CF278A6A83}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublicSharing.Infrastructure.Persistence", "PublicSharing.Infrastructure.Persistence\PublicSharing.Infrastructure.Persistence.csproj", "{45362C56-DFA3-461F-892C-CFF0281D897C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublicSharing.Api", "PublicSharing.Api\PublicSharing.Api.csproj", "{63BAD475-A0E6-45F8-95A6-3F8D86E2F55D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PublicSharing.Application", "PublicSharing.Application\PublicSharing.Application.csproj", "{E50541E6-DCB3-497A-962F-06F0543E177C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicSharing.IntegrationTests", "PublicSharing.IntegrationTests\PublicSharing.IntegrationTests.csproj", "{F9B7EEBF-36BC-43AF-91B1-474D3E9F105C}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{6824AC6E-2178-410D-914F-7F8A5E4630C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicSharing.UnitTests", "PublicSharing.UnitTests\PublicSharing.UnitTests.csproj", "{57833298-BFA6-4A84-9247-B352850AD6F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{141DA055-4839-4991-89BA-63EB89F910F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{141DA055-4839-4991-89BA-63EB89F910F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{141DA055-4839-4991-89BA-63EB89F910F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{141DA055-4839-4991-89BA-63EB89F910F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EE8B54-A21E-48A0-839D-76CF278A6A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EE8B54-A21E-48A0-839D-76CF278A6A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EE8B54-A21E-48A0-839D-76CF278A6A83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EE8B54-A21E-48A0-839D-76CF278A6A83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45362C56-DFA3-461F-892C-CFF0281D897C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45362C56-DFA3-461F-892C-CFF0281D897C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45362C56-DFA3-461F-892C-CFF0281D897C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45362C56-DFA3-461F-892C-CFF0281D897C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63BAD475-A0E6-45F8-95A6-3F8D86E2F55D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63BAD475-A0E6-45F8-95A6-3F8D86E2F55D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63BAD475-A0E6-45F8-95A6-3F8D86E2F55D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63BAD475-A0E6-45F8-95A6-3F8D86E2F55D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E50541E6-DCB3-497A-962F-06F0543E177C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50541E6-DCB3-497A-962F-06F0543E177C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50541E6-DCB3-497A-962F-06F0543E177C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50541E6-DCB3-497A-962F-06F0543E177C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9B7EEBF-36BC-43AF-91B1-474D3E9F105C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9B7EEBF-36BC-43AF-91B1-474D3E9F105C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9B7EEBF-36BC-43AF-91B1-474D3E9F105C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9B7EEBF-36BC-43AF-91B1-474D3E9F105C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6824AC6E-2178-410D-914F-7F8A5E4630C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6824AC6E-2178-410D-914F-7F8A5E4630C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6824AC6E-2178-410D-914F-7F8A5E4630C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6824AC6E-2178-410D-914F-7F8A5E4630C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57833298-BFA6-4A84-9247-B352850AD6F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57833298-BFA6-4A84-9247-B352850AD6F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57833298-BFA6-4A84-9247-B352850AD6F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57833298-BFA6-4A84-9247-B352850AD6F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{141DA055-4839-4991-89BA-63EB89F910F3} = {51C4B6BC-FCC1-4053-89B8-BDBEE10006DD}
+		{E2EE8B54-A21E-48A0-839D-76CF278A6A83} = {51C4B6BC-FCC1-4053-89B8-BDBEE10006DD}
+		{45362C56-DFA3-461F-892C-CFF0281D897C} = {51C4B6BC-FCC1-4053-89B8-BDBEE10006DD}
+		{63BAD475-A0E6-45F8-95A6-3F8D86E2F55D} = {51C4B6BC-FCC1-4053-89B8-BDBEE10006DD}
+		{E50541E6-DCB3-497A-962F-06F0543E177C} = {51C4B6BC-FCC1-4053-89B8-BDBEE10006DD}
+		{F9B7EEBF-36BC-43AF-91B1-474D3E9F105C} = {71A2B704-C6F5-4167-A917-B08D228F4A2C}
+		{6824AC6E-2178-410D-914F-7F8A5E4630C2} = {F37DB99B-8E86-4978-8454-93CCC1AC51F8}
+		{57833298-BFA6-4A84-9247-B352850AD6F7} = {71A2B704-C6F5-4167-A917-B08D228F4A2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {694FA112-77B1-4F4D-B283-728FE521A847}
+	EndGlobalSection
+EndGlobal
