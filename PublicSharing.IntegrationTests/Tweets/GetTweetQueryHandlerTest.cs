@@ -1,4 +1,5 @@
-﻿using FluentAssertions;
+﻿
+using FluentAssertions;
 using PublicSharing.Application.Queries.Tweets.GetTweets;
 using PublicSharing.Domain.TweetAggregate;
 using PublicSharing.Domain.UserAggregate;
@@ -15,6 +16,7 @@ namespace PublicSharing.IntegrationTests.Tweets
     public class GetTweetsQueryHandlerTests : IClassFixture<PublicSharingDbContextFixture>
     {
         private readonly PublicSharingDbContextFixture _fixture;
+
 
         public GetTweetsQueryHandlerTests(PublicSharingDbContextFixture fixture)
         {
